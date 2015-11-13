@@ -8,10 +8,10 @@
 	}
 }
 
-@debug get-temp(32, celsius);
-@debug get-temp(32, farenheit);
+@debug "The temperature in celsius is " + get-temp(0, celsius) + " celsius"; //32 farenheit is 0 celsius
+@debug "The temperature in farenheit is " + get-temp(40, farenheit); //32 celsius is 89.6 farenheit
 
 
-
+ 
 
 
