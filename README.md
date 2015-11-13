@@ -1,3 +1,3 @@
-#Convert Celsius to Farenheit...Farenheit to Celsius
+#Celsius - Farenheit converter
 
-Tired of guessing if youare going to freeze or not?
+Tired of guessing if you are going to freeze or not?
