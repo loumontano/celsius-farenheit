@@ -1,0 +1,17 @@
+@function get-temp($degrees, $unit) {
+	@if($unit == 'farenheit') {
+		@return $degrees * 9/5 + 32;
+	}
+
+	@if($unit == 'celsius') {
+		@return ($degrees - 32) * 5/9;
+	}
+}
+
+@debug get-temp(32, celsius);
+@debug get-temp(32, farenheit);
+
+
+
+
+
